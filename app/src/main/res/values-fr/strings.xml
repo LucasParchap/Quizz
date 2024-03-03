@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizz</string>
+
+    <string name="level">Niv : 1</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="score">Score : 0 / 0</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="replay">Rejouer</string>
+    <string name="exit">Quitter</string>
+    <string name="leaderboard">Classement</string>
+
+    <!-- Leaderboard | Vue Quizz -->
+    <string name="logout_confirmation">Êtes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="level_prefix">Niv : %1$d</string>
+    <string name="score_text">Score : %1$d / %2$d</string>
+
+    <!-- Vue Quizz -->
+    <string name="prompt_select_answer">Veuillez sélectionner une réponse</string>
+    <string name="quiz_completed_message">Quiz terminé ! Votre score : %1$d/10</string>
+    <string name="cannot_logout_after_submit">Vous ne pouvez pas vous déconnecter après avoir soumis une réponse.</string>
+    <string name="cannot_access_leaderboard_after_submit">Vous ne pouvez pas consulter le classement après avoir soumis une réponse.</string>
+
+
+    <!-- Messages LoginViewModel -->
+    <string name="login_success">Connexion réussie</string>
+    <string name="incorrect_credentials">Identifiants incorrects</string>
+    <string name="login_error">Erreur lors de la connexion</string>
+
+
+    <!-- Messages RegistrationViewModel -->
+    <string name="username_taken">Ce nom d\'utilisateur est déjà pris. Veuillez en choisir un différent.</string>
+    <string name="email_exists">Un utilisateur avec cet email existe déjà. Veuillez réessayer.</string>
+    <string name="username_short">Le pseudo doit contenir plus de 3 caractères</string>
+    <string name="email_invalid">L\'email n\'est pas valide</string>
+    <string name="password_requirements">Mot de passe: 1 chiffre, 1 min., 1 maj., 1 caract. spécial.</string>
+    <string name="password_mismatch">Le mot de passe et la confirmation du mot de passe ne correspondent pas</string>
+    <string name="user_registered">Utilisateur enregistré avec succès</string>
+
+    <!-- Layout Inscription | Connexion -->
+    <string name="password_confirmation_hint">Confirmation mot de passe</string>
+    <string name="logo_description">Logo de l\'application</string>
+    <string name="registration_text">Inscription</string>
+    <string name="login_text">Connexion</string>
+    <string name="username_hint">Nom d\'utilisateur</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="register_button">S\'inscrire</string>
+    <string name="login_link_text">Vous avez déjà un compte ? Connectez-vous ici.</string>
+    <string name="register_link_text">Vous n\'avez pas de compte ? Inscrivez-vous ici.</string>
+    <string name="login_button_description">Connectez-vous pour accéder à votre compte</string>
+
+    <!-- Layout Header-->
+    <string name="leaderboard_button_description">Ouvrir le classement</string>
+    <string name="logOut_button_description">Se déconnecter du compte utilisateur</string>
+    <string name="quizz_button_description">Commencer le quiz</string>
+
+    <!-- Layout item_leaderboard -->
+    <string name="question_text">Question</string>
+
+    <!-- Layout Quizz -->
+    <string name="btn_submit">Soumettre</string>
+</resources>

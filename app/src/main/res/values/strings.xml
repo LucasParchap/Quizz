@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Quizz</string>
+
+    <string name="level">Lvl: 1</string>
+    <string name="username">Username</string>
+    <string name="score">Score: 0 / 0</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="replay">Replay</string>
+    <string name="exit">Exit</string>
+    <string name="leaderboard">Leaderboard</string>
+
+    <!-- Leaderbord | Quizz View -->
+    <string name="logout_confirmation">Are you sure you want to logout ?</string>
+    <string name="level_prefix">Lvl: %1$d</string>
+    <string name="score_text">Score: %1$d / %2$d</string>
+
+    <!-- Quizz View -->
+    <string name="prompt_select_answer">Please select an answer</string>
+    <string name="quiz_completed_message">Quiz Completed! Your score: %1$d/10</string>
+    <string name="cannot_logout_after_submit">You cannot log out after submitting a response.</string>
+    <string name="cannot_access_leaderboard_after_submit">You cannot view the leaderboard after submitting a response.</string>
+
+    <!-- Messages LoginViewModel -->
+    <string name="login_success">Login successful</string>
+    <string name="incorrect_credentials">Incorrect credentials</string>
+    <string name="login_error">Error logging in</string>
+
+    <!-- RegistrationViewModel message -->
+    <string name="username_taken">This username is already taken. Please choose a different username.</string>
+    <string name="email_exists">User with this email already exists. Please try again.</string>
+    <string name="username_short">Pseudo must be longer than 3 characters</string>
+    <string name="email_invalid">Email is not valid</string>
+    <string name="password_requirements">Password needs: 1 digit, 1 lower, 1 upper, 1 special char</string>
+    <string name="password_mismatch">Password and confirmation password do not match</string>
+    <string name="user_registered">User successfully registered</string>
+
+    <!-- Registration | Login layout -->
+    <string name="password_confirmation_hint">Password Confirmation</string>
+    <string name="logo_description">Application logo</string>
+    <string name="registration_text">Registration</string>
+    <string name="login_text">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="login_link_text">Already have an account? Login here.</string>
+    <string name="register_link_text">Don\'t have an account? Register here.</string>
+    <string name="login_button_description">Log in to access your account</string>
+
+    <!-- Header layout-->
+    <string name="leaderboard_button_description">Open leaderboard</string>
+    <string name="logOut_button_description">Log out of user account</string>
+    <string name="quizz_button_description">Start the quizz</string>
+
+    <!-- item_leaderboard layout -->
+    <string name="question_text">Question</string>
+
+    <!-- Quizz layout -->
+    <string name="btn_submit">Submit</string>
+
+</resources>
